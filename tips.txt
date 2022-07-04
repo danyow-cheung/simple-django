@@ -1,0 +1,22 @@
+
+https://www.youtube.com/watch?v=PtQiiknWUcI
+    7.3 :   3:30:01
+
+    7.4:    5:08:56     涉及前端内容 后面统一不尝试
+
+kill port 8000:
+    sudo lsof -t -i tcp:8000 | xargs kill -9
+
+
+database upgrade:
+    1. python manage.py makemigrations
+    2. python manage.py migrate
+
+django create admin:
+    python manage.py createsuperuser
+    username:danyow
+    pwd:123456
+
+
+django run:
+    python manage.py runsever 
